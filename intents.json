@@ -1,0 +1,182 @@
+{
+  "intents": [
+    {
+      "tag": "Select1",
+      "patterns": [
+        "Admissions"
+      ],
+      "responses": [
+        "1. Application Document\n 2. Fees and Scholarship\n 3. Steps to follow"
+        
+      ]
+    },
+      
+    {
+      "tag": "number",
+      "patterns":["1","2","3"],
+      "responses":["Please type the topic text"]
+    },
+    {
+      "tag": "Subtitle1",
+      "patterns": [
+        "Application Document"
+      ],
+      "responses": [
+      "Type <b>BACHELOR</b> if you are interested in a bachelor programmes\nType <b>MASTER</b> for our master programmes\nType MBA for our <b> MBA </b> programmes."
+        
+      ]
+    },
+
+
+
+    {
+      "tag": "Subtitle1Bachelor",
+      "patterns": [
+        "Bachelor"
+      ],
+      "responses": [
+        "Ok, got it. For an overview of all of our Bachelor programmes, please check out this link:\n<a target='_blank' href='https://www.brightforth.rw/bachelor' style='text-decoration:none;'>Bachelor Info</a>\n\n We need the following documents for your application:\n\n- higher secondary school leaving certificate or tertiary education certificate (e.g. Higher National Diploma)\n-CV\n -passport or ID\n\nPlease type <b> MENU </b> to get back to the main menu.\nType <b> END </b> if you would like to end our conversation."
+        
+      ]
+    },
+    
+
+    {
+      "tag": "SubtitleMaster",
+      "patterns": [
+        "Master"
+      ],
+      "responses": [
+        "For an overview of all of our Master programmes, please check out this link:\n<a target='_blank' href='https://www.brightforth.rw/master' style='text-decoration:none;'>Master Info</a>\n\nWe need the following documents for your application:\n- degree certificate(s)\n- transcript(s)\n- proof of at least 1 year of post- graduate work experience for certain Master programmes\n-CV\n-passport or ID\nPlease type <b>MENU</b> to get back to the main menu.\nPlease type <b>END</b> if you would like to end our conversation."
+        
+      ]
+    },
+        
+
+    {
+      "tag": "SubtitleMBA",
+      "patterns": [
+        "MBA"
+      ],
+      "responses": [
+        "1. Bachelor\n 2. Master"
+        
+      ]
+    },
+
+
+
+
+    {
+      "tag": "Subtitle2",
+      "patterns": [
+        "Fees and Scholarship"
+      ],
+      "responses": [
+        "We currently have up-to 67% scholarships available for online studies!\nFollow this link and click on it:\n <a target='_blank' href='https://www.brightforth.rw/programs' style='text-decoration:none;list-style:none;'> Find Programs</a>\n\nPlease note: The final fees depend on your chosen study programme, study duration and whether you are eligible for the scholarship or not.\n\n Please type <b>MENU</b> to get back to the main menu.\nType <b>END</b> if you would like to end our conversation."
+        
+      ]
+    },
+
+
+    {
+      "tag": "Subtitle3",
+      "patterns": [
+        "Steps to follow"
+      ],
+      "responses": [
+        "Ok, got it. Just follow this links and click on request free information:\n1.<a target='_blank' href='https://www.brightforth.rw/assessment'><b style='color: blue;text-decoration:none;underline:none;'> Assessment</b></a>\n2.<a target='_blank' href='https://www.brightforth.rw/application'><b style='color: blue;text-decoration:none;'> Apply Now</b></a>\n3.<a target='_blank' href='https://www.brightforth.rw/#'><b style='color: blue;text-decoration:none;'> Inquire Now</b></a>\n4.<a target='_blank' href='https://www.brightforth.rw'><b style='color: blue;text-decoration:none;'> Document Package</b></a>\n\n Please type <b>MENU</b> to get back to the main menu.\nType <b>END</b> if you would like to end our conversation."
+        
+      ]
+    },
+ {
+    "tag": "menu",
+    "patterns": [
+      "MENU"
+    ],
+    "responses":[
+      "<a href='base.html'> MENU</a>"
+    ]
+  },
+    {
+      "tag": "Select2",
+      "patterns": [
+        "VISA Guidance"
+      ],
+      "responses": [
+        "1. Appointment\n 2. Study VISA\n 3. Visit VISA"
+        
+      ]
+    },
+    
+    {
+      "tag": "Subtitle0",
+      "patterns": [
+        "Appointment"
+      ],
+      "responses": [
+        "1. Work appointment : Required Document\n 2. Study appointment : Required Document"
+        
+      ]
+    },
+    
+    {
+      "tag": "Subtitle00",
+      "patterns": [
+        "Study VISA"
+      ],
+      "responses": [
+        "1. Poland\n 2. Canada"
+        
+      ]
+    },
+    
+    
+    {
+      "tag": "Subtitle000",
+      "patterns": [
+        "Visit VISA"
+      ],
+      "responses": [
+        "1. Canada\n Europe"
+        
+      ]
+    },
+    
+    {
+      "tag": "Select3",
+      "patterns": [
+        "Travel Insurance"
+      ],
+      "responses": [
+        "1. Application.. \n 2. Field Form.. \n 3. Commitment.."
+        
+      ]
+    },
+    
+    {
+      "tag": "Select4",
+      "patterns": [
+        "Additional Services"
+      ],
+      "responses": [
+        "1. Academic Services \n 2. Career Guidance \n 3. Education Assistance \n 4. Application Assistance \n 5. Interview Preparation \n 6. University Registration"
+        
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!","Great"],
+      "responses": ["Thanks for your feedback. If you need more help, you can ask another question at any time!","You're welcome! for your feedback. If you need more help, you can ask another question at any time"]
+    }
+  ]
+}
